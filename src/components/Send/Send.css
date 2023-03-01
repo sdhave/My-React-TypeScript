@@ -1,0 +1,12 @@
+.btn {
+    height: 45px;
+    width: 45px;
+    margin-left: 2px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.icon {
+    color: blue;
+    font-size: 16px;
+}

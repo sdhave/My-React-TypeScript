@@ -1,0 +1,16 @@
+.option {
+    height: 50px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.icon, .option span {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.option span {
+    font-weight: bold;
+}

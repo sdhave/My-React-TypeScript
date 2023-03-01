@@ -1,0 +1,69 @@
+.header {
+    height: 8vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    box-shadow: 1px 1px 1px 1px #000;
+    background: #040347;
+    color: #FFFAAA;
+}
+
+.logo-con {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 263px;
+    background: #040347;
+    color: #FFFAAA;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.logo-con h4 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.b { border: 1px solid grey; }
+
+.search-bar-container {
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.account-container {
+    width: 22%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.search {
+    width: 500px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 5px 10px;
+    background: none;
+    border: 1px solid #FFFAAA;
+}
+
+::placeholder {
+    color: #FFFAAA;
+}
+
+.user {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin: 5px;
+    border: 2px solid #FFFAAA;
+}

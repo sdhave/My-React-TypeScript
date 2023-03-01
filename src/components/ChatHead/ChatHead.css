@@ -1,0 +1,28 @@
+.chat-head {
+    border: 1px solid;
+    padding: 2px;
+    width: 630px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.chat-title {
+/*     border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-title span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.icon {
+    color: blue;
+    font-size: 16px;
+    margin: 15px;
+}

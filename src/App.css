@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+	--col-b: #00387c;
+	--col-g: #ccbb83;
+    --col-gl: #F9F2DA;
+	--col-w: #fffffa;
+}
+
+.b { border: 1px solid; }
+
+.container {
+    position: fixed;
+    top: 8vh;
+    left: 260px;
+    padding: 15px;
+    height: 92vh;
+    width: 80%;
+    background: white;
+}
+
+.page-title {
+    margin-bottom: 15px;
+}
+
+.cen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HOME PAGE : DASHBOARD TABLE */
+.clients-table {
+    width: 100%;
+    text-align: left;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.clients-table * {
+    padding-left: 2px;
+}
+
+.fourth-col {
+    text-align: center;
+}
+
+.no-icon {
+    font-size: 24px;
+    color: red;
+    margin: 0 auto;
+}
+
+.yes-icon {
+    font-size: 24px;
+    color: green;
+    margin: auto;
+}
+
+th {
+    background: #FFFAAA;
+}
+
+tr:nth-child(even) {
+    background: whitesmoke;
+}
+
+/* CHAT PAGE */
+
+.chat-container {
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 5px 1px #CCC;
+}
+
+.clients {
+    width: 40%;
+    padding: 5px;
+}
+
+.clients div {
+    box-shadow: 0 0 5px 1px #CCC;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+.clients p {
+    font-size: 8px;
+}
+
+.chat-window {
+    width: 60%;
+    height: 450px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px 1px #CCC;
+    border-radius: 5px;
+}
+
+.msgs-con {
+    height: 390px;
+}
+
+.send-con {
+    height: 60px;
+	border-radius: 0 0 10px 10px;
+	padding: 5px;
+	background: var(--col-g);
+}
+
+.msg-input {
+    height: 100%;
+	width: 84%;
+	border-radius: 5px;
+	padding: 2px 12px;
+	border: 1px solid grey;
+    margin-right: 5px;
+}
+
+::placeholder {
+    color: var(--col-w);
+}
+
+.send-btn {
+    height: 100%;
+	width: 15%;
+	border-radius: 5px;
+	border: 1px solid var(--col-b);
+	padding: 10px;
+	background: var(--col-b);
+    color: var(--col-w);
+}
+/*  */
+.msg {
+    background: var(--col-gl);
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    border: 1px solid var(--col-g);
+}
+
+.current-user-msg {
+    background: var(--col-w);
+    margin-left: 50px;
+}
+
+.msg p {
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+.msg span {
+    font-size: 10px;
+    color: grey;
+    text-align: right;
+}

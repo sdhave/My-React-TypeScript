@@ -1,0 +1,31 @@
+.side-bar {
+    width: 260px;
+    height: 92vh;
+    position: fixed;
+    top: 8vh;
+    left: 0;
+    background: whitesmoke;
+    color: #D3B776;
+    background: #040347;
+    border-top: 2px solid grey;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.link-active {
+    border-radius: 5px;
+    margin-top: 5px;
+    color: #FFFAAA;
+    border: 1px solid #fffaaa;
+}
+
+.link {
+    margin-top: 5px;
+    color: #FFFAAA;
+}
